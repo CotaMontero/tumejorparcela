@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <script src="../../assets/js/slider.js"></script>
     <script src="../../assets/js/gallery.js"></script>
-    
+    <script src="../../assets/js/gallery1.js"></script>
+    <!--<script src="../../assets/js/gallery2.js"></script>-->
 </head>
 <body>
 
@@ -66,31 +67,31 @@
             </div>
         </div>
         <div class="gallery-container" style="max-width: 100%; overflow-x: auto; height: 100%; padding: 0;">
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-01.png" alt="Vista Cerro Castillo 1" style=" object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-02.png" alt="Vista Cerro Castillo 2" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-03.png" alt="Vista Cerro Castillo 3" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-04.png" alt="Vista Cerro Castillo 4" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-05.png" alt="Vista Cerro Castillo 1" style=" object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-06.png" alt="Vista Cerro Castillo 2" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px;">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-07.png" alt="Vista Cerro Castillo 3" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-08.png" alt="Vista Cerro Castillo 4" style="object-fit: cover;">
             </div>
-            <div class="gallery-item" style="height: 350px">
+            <div class="gallery-item">
                 <img src="img/galeria/parcela-aysen-09.png" alt="Vista Cerro Castillo 4" style="object-fit: cover;">
             </div>
         </div>
@@ -156,7 +157,7 @@
                 </ul>
             </div>
             <div class="ubication-map">
-                <img src="img/ubicacion.png" alt="Camino de acceso a Mirador Cerro Castillo">
+                <img src="img/mapa-cerro-castillo.png" alt="Camino de acceso a Mirador Cerro Castillo">
             </div>
         </div>
     </section>
@@ -169,10 +170,10 @@
             <div class="feature-two-reverse-content">
                 <h2>Actividades <br> en la Zona</h2>
                 <ul class="feature-two-reverse-list">
-                    <li><strong>Trekking.</strong></li>
-                    <li><strong>Mountain bike.</strong></li>
-                    <li><strong>Pesca en mosca.</strong></li>
-                    <li><strong>Escalamiento</strong></li>
+                    <li>Trekking.</li>
+                    <li>Mountain bike.</li>
+                    <li>Pesca en mosca.</li>
+                    <li>Escalamiento</li>
                 </ul>
             </div>
         </div>
@@ -208,7 +209,7 @@
     
 
     <section class="gallery2">
-        <h2 class="gallery2-title">Qué te puedes encontrar en Mirador Cerro Castillo</h2>
+        <h2 class="gallery2-title">Lo que puedes encontrar en Mirador Cerro Castillo</h2>
         <div class="gallery2-container">
             <div class="gallery2-item wide"><img src="img/gallery/flora-parcela-cerro-castillo-07.png" alt="Flora Cerro Castillo"></div>
             <div class="gallery2-item item"><img src="img/gallery/flora-parcela-cerro-castillo-09.png" alt="Flora Cerro Castillo"></div>
@@ -252,14 +253,17 @@
     
 
 
-     <!-- Modal -->
-     <div id="modal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modal-img">
-    </div>
+            <!-- Modal -->
+                <div id="modal" class="modal">
+                    <span class="close">&times;</span>
+                        <div class="modal-content">
+                            <button class="modal-arrow prev">‹</button>
+                            <img id="modal-img">
+                            <button class="modal-arrow next">›</button>
+                        </div>
 
-    <script src="../../assets/js/gallery2.js"></script>
-
+                   
+                </div>
     <footer>
         <p>&copy; 2025 Tu Mejor Parcela</p>
     </footer>
