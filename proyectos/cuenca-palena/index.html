@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <script src="../../assets/js/slider.js"></script>
     <script src="../../assets/js/gallery.js"></script>
+    <script src="../../assets/js/gallery1.js"></script>
 </head>
 <body>
 
@@ -65,26 +66,29 @@
             </div>
         </div>
             <div class="gallery-container" style="max-width: 100%; overflow-x: auto; height: 100%; padding: 0;">
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-01.png" alt="Vista Cerro Castillo 1" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-02.png" alt="Vista Cerro Castillo 2" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-03.png" alt="Vista Cerro Castillo 3" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-04.png" alt="Vista Cerro Castillo 4" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-05.png" alt="Vista Cerro Castillo 5" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-06.png" alt="Vista Cerro Castillo 6" style="object-fit: cover;">
                 </div>
-                <div class="gallery-item" style="height: 30%;">
+                <div class="gallery-item">
                     <img src="img/parcela-palena-07.png" alt="Vista Cerro Castillo 7" style="object-fit: cover;">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/parcela-palena-08.png" alt="Vista Cerro Castillo 7" style="object-fit: cover;">
                 </div>
             </div>
     </section>
@@ -141,7 +145,7 @@
                 </ul>
             </div>
             <div class="ubication-map">
-                <img src="img/ubicacion.png" alt="Camino de acceso a Mirador Cerro Castillo">
+                <img src="img/mapa-palena.png" alt="mapa parcela Cuenca Palena">
             </div>
         </div>
     </section>
@@ -176,10 +180,17 @@
 
 
 
-     <!-- Modal -->
-     <div id="modal" class="modal">
+    <!-- Modal -->
+    <div id="modal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="modal-img">
+            <div class="modal-content">
+                <button class="modal-arrow prev">‹</button>
+                <img id="modal-img">
+                <button class="modal-arrow next">›</button>
+            </div>
+
+        
+      
     </div>
 
     <footer>
