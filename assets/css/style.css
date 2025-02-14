@@ -188,7 +188,7 @@ html {
 .quienes-somos {
     width: 100%;
     height: 60vh;
-    background-image: url('../img/banners/quienes-somos2.png');
+    background-image: url('../img/hero/hero-quienes-somos.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -607,7 +607,7 @@ footer p {
 
 /* Contact Section */
 .contacto {
-    background-image: url('../img/banners/home_footer.png');
+    background-image: url('../img/banners/home_contacto.png');
     background-size: cover;
     background-position: center;
     padding: 60px 20px;
@@ -1809,8 +1809,8 @@ footer p {
     }
 }
 
-.swal2-confirm-button {
-    background-color: #007bff !important; /* Cambia el color de fondo a azul */
-    border-color: #007bff !important; /* Cambia el color del borde a azul */
-    color: #fff !important; /* Cambia el color del texto a blanco */
+.swal2-confirm.swal2-styled {
+    background-color: #00747A !important;
+    border-color: #003A3D !important;
+    color: #fff !important;
   }
